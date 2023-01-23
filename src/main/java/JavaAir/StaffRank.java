@@ -2,13 +2,13 @@ package JavaAir;
 
 public enum StaffRank {
 
-    CAPTAIN(1),
-    FIRSTOFFICER(2),
-    FLIGHTATTENDANT(3);
+    CAPTAIN("Captain"),
+    FIRSTOFFICER("First Officer"),
+    FLIGHTATTENDANT("Flight Attendant");
 
-    private final int rank;
+    private final String rank;
 
-    StaffRank(int rank) {
+    StaffRank(String rank) {
         this.rank = rank;
     }
 
